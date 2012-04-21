@@ -10,7 +10,7 @@ import "eu.webtoolkit.jwt.auth.FacebookService"
 import "eu.webtoolkit.jwt.auth.AuthService"
 
 #global variables for facebook and google login
-#there must be inited only once!
+#only one of each must exist
 $authservice = AuthService.new()
 $fblogin = FacebookService.new($authservice)
 $glogin = GoogleService.new($authservice)
