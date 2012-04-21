@@ -21,7 +21,7 @@ class OALogin < WApplication
     super(env)
     setTitle("OAuth Login")
 
-    #debug to stdout, should be true
+    #debug to stdout, both should be true
     puts
     puts FacebookService::configured
     puts GoogleService::configured
