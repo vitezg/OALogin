@@ -1,0 +1,5 @@
+OAuth login example with JWt.
+
+For more information, please read this blog post:
+
+This example uses tserver.rb: https://github.com/vitezg/tserver

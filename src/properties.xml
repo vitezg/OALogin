@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wt-app>
+<properties>
+<property name="google-oauth2-redirect-endpoint">http://your.host.name:8888/oauth2callback</property>
+<property name="google-oauth2-client-id">client id from google</property>
+<property name="google-oauth2-client-secret">client secret from google</property>
+<property name="facebook-oauth2-redirect-endpoint">http://your.host.name:8888/foauth2callback</property>
+<property name="facebook-oauth2-app-id">app id from facebook</property>
+<property name="facebook-oauth2-app-secret">app secret from facebook</property>
+</properties>
+</wt-app>

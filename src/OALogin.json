@@ -1,0 +1,10 @@
+{
+"port":8888,
+"servletfile":"OALogin",
+"servletclass":"OALogin",
+"pidfile":"/tmp/jruby-pidfile",
+"stopfile":"/tmp/jruby-please-stop-",
+"basedir":"/your/base/dir",
+"staticdatapath":"static",
+"jwt-config-file":"/full/path/to/properties.xml"
+}
